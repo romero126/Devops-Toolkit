@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="DevOps_Toolkit.UI.Sidebar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DevOps_Toolkit.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300">
+	<UserControl.Resources>
+		<BitmapImage x:Key="I_Item_Default" UriSource="/DevOps Toolkit;component/Images/Dark/appbar.control.stop.png" />
+		<SolidColorBrush x:Key="C_BackgroundColor">#29384f</SolidColorBrush>
+		<SolidColorBrush x:Key="C_Item_IsSelectedBackgroundColor">#3e487f</SolidColorBrush>
+		<SolidColorBrush x:Key="C_Item_IsSelected">#9fa4fe</SolidColorBrush>
+		<SolidColorBrush x:Key="C_Item_HoverColor">#4c519c</SolidColorBrush>
+	</UserControl.Resources>
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition
+				Width="85" />
+			<ColumnDefinition
+				Width="*" />
+		</Grid.ColumnDefinitions>
+		<Grid
+			Grid.Column="0"
+			Background="{StaticResource C_BackgroundColor}">
+			<StackPanel x:Name="Content">
+				<ItemsControl ItemsSource="{Binding registrar}"  Grid.Column="0">
+					<ItemsControl.ItemTemplate>
+						<DataTemplate>
+							<Grid Height="67">
+								<Grid.Style>
+									<Style TargetType="Grid">
+										<Setter Property="Background" Value="{StaticResource C_BackgroundColor}"></Setter>
+										<Style.Triggers>
+											<DataTrigger Binding="{Binding isSelected}"  Value="True">
+												<Setter Property="Background" Value="{StaticResource C_Item_IsSelectedBackgroundColor}" />
+											</DataTrigger>
+											<Trigger Property="IsMouseOver" Value="True">
+												<Setter Property="Background" Value="{StaticResource C_Item_HoverColor}" />
+											</Trigger>
+										</Style.Triggers>
+									</Style>
+								</Grid.Style>
+								<Grid Width="5" Background="{StaticResource C_Item_IsSelected}" HorizontalAlignment="Left">
+									<Grid.Style>
+										<Style TargetType="Grid">
+											<Style.Triggers>
+												<DataTrigger Binding="{Binding isSelected}"  Value="False">
+													<Setter Property="Visibility" Value="Hidden" />
+												</DataTrigger>
+											</Style.Triggers>
+										</Style>
+									</Grid.Style>
+								</Grid>
+								<Image Source="{Binding Icon}"></Image>
+								<Grid Background="Transparent" MouseLeftButtonUp="Grid_MouseLeftButtonUp"></Grid>
+							</Grid>
+						</DataTemplate>
+					</ItemsControl.ItemTemplate>
+				</ItemsControl>
+			</StackPanel>
+
+		</Grid>
+	</Grid>
+</UserControl>

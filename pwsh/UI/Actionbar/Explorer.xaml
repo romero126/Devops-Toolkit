@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="pwsh.UI.Actionbar.Explorer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:pwsh.UI.Actionbar"
+             mc:Ignorable="d" 
+			xmlns:Explorer="clr-namespace:pwsh.UI.Actionbar"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+		<StackPanel>
+			<Label FontFamily="Consolas" FontSize="12" Foreground="White">Explorer</Label>
+			<Explorer:Explorer_Consoles x:Name="Consoles"/>
+			<Explorer:Explorer_Cmdlets x:Name="Cmdlets"/>
+		</StackPanel>
+	</Grid>
+</UserControl>

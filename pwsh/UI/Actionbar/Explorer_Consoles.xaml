@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="pwsh.UI.Actionbar.Explorer_Consoles"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:pwsh.UI.Actionbar"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+		<Expander FontFamily="Consolas" IsExpanded="True" Background="#333333" FontSize="14" Foreground="White" Header="Consoles">
+			<Grid Background="#252526">
+				<Grid>
+					<StackPanel>
+						<ItemsControl ItemsSource="{Binding registrar}"  Grid.Column="0">
+							<ItemsControl.ItemTemplate>
+								<DataTemplate>
+									<Grid MouseLeftButtonDown="Console_MouseLeftButtonDown">
+										<Grid.Style>
+											<Style TargetType="Grid">
+												<Setter Property="Background" Value="Transparent"></Setter>
+												<Style.Triggers>
+													<Trigger Property="IsMouseOver" Value="True">
+														<Setter Property="Background" Value="#333333" />
+													</Trigger>
+												</Style.Triggers>
+											</Style>
+										</Grid.Style>
+										<Grid.ContextMenu>
+											<ContextMenu>
+												<MenuItem Header="Delete" Click="MenuItemDelete_Click"/>
+											</ContextMenu>
+										</Grid.ContextMenu>
+										<DockPanel>
+											<Image Height="20" Source="{Binding ICON}"></Image>
+											<TextBlock Text="{Binding NAME}"  />
+											<TextBox Visibility="Collapsed" Background="#252526" Foreground="White"  Text="{Binding NAME}" PreviewKeyDown="Console_PreviewKeyDown"/>
+										</DockPanel>
+									</Grid>
+								</DataTemplate>
+							</ItemsControl.ItemTemplate>
+						</ItemsControl>
+					</StackPanel>
+				</Grid>
+			</Grid>
+		</Expander>
+		<StackPanel VerticalAlignment="Top" HorizontalAlignment="Right" Orientation="Horizontal" Margin="0,0,0,0">
+			<Grid MouseLeftButtonDown="Create_MouseLeftButtonDown">
+				<Grid.Style>
+					<Style TargetType="Grid">
+						<Setter Property="Opacity" Value=".75"></Setter>
+						<Style.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Opacity" Value="1.0" />
+							</Trigger>
+						</Style.Triggers>
+					</Style>
+				</Grid.Style>
+				<Image Source="/pwsh;component/Images/Color/appbar.page.add.png" Width="25" Height="25" />
+			</Grid>
+			<Grid MouseLeftButtonDown="Refresh_MouseLeftButtonDown">
+				<Grid.Style>
+					<Style TargetType="Grid">
+						<Setter Property="Opacity" Value=".75"></Setter>
+						<Style.Triggers>
+							<Trigger Property="IsMouseOver" Value="True">
+								<Setter Property="Opacity" Value="1.0" />
+							</Trigger>
+						</Style.Triggers>
+					</Style>
+				</Grid.Style>
+				<Image Source="/pwsh;component/Images/White/appbar.refresh.png" Width="25" Height="25" />
+			</Grid>
+		</StackPanel>
+	</Grid>
+</UserControl>

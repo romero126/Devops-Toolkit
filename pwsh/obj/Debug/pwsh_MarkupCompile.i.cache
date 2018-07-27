@@ -1,0 +1,20 @@
+﻿pwsh
+
+
+library
+C#
+.cs
+E:\DevOps Toolkit\pwsh\obj\Debug\
+pwsh
+none
+false
+DEBUG;TRACE
+
+101236042527
+
+26-992936421
+151426387118
+UI\Actionbar\Explorer.xaml;UI\Actionbar\Explorer_Consoles.xaml;UI\Actionbar\Explorer_Cmdlets.xaml;UI\Actionbar\Search.xaml;UI\Body.xaml;UI\Console.xaml;UI\Editor.xaml;UI\IDE.xaml;UI\Tabs.xaml;UX.xaml;
+
+True
+

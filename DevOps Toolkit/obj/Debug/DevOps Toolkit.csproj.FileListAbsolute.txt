@@ -1,0 +1,75 @@
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.csprojResolveAssemblyReference.cache
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\MainWindow.g.cs
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\App.g.cs
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit_MarkupCompile.cache
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit_MarkupCompile.lref
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\DevOps Toolkit.exe.config
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\DevOps Toolkit.exe
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\DevOps Toolkit.pdb
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\MainWindow.baml
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.g.resources
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps_Toolkit.Properties.Resources.resources
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.csproj.GenerateResource.Cache
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.csproj.CoreCompileInputs.cache
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.exe
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.pdb
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\UI\Sidebar.g.cs
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\UI\Sidebar.baml
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\UI\BlankPage.g.cs
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\UI\BlankPage.baml
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\UI\Body.g.cs
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\obj\Debug\UI\Body.baml
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\pwsh.dll
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\pwsh.pdb
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\DllDependencies.dll
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\DllDependencies.pdb
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\notesdb.dll
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\pwkeeper.dll
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\ticket.dll
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\notesdb.pdb
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\pwkeeper.pdb
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\ticket.pdb
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\DllDependencies.dll.config
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\System.Data.SQLite.dll
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\System.Data.SQLite.xml
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\v-jurom\OneDrive\Projects\DevOps Toolkit\DevOps Toolkit\bin\Debug\System.Data.SQLite.pdb
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\DevOps Toolkit.exe.config
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\DevOps Toolkit.exe
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\DevOps Toolkit.pdb
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\core.dll
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\notesdb.dll
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\pwkeeper.dll
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\pwsh.dll
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\shell.dll
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\ticket.dll
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\WpfAnimatedGif.dll
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\System.Data.SQLite.dll
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\core.pdb
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\notesdb.pdb
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\pwkeeper.pdb
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\pwsh.pdb
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\shell.pdb
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\ticket.pdb
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\WpfAnimatedGif.xml
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\System.Data.SQLite.pdb
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\System.Data.SQLite.xml
+E:\DevOps Toolkit\DevOps Toolkit\bin\Debug\System.Data.SQLite.dll.config
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.csprojResolveAssemblyReference.cache
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\MainWindow.g.cs
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\UI\Body.g.cs
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\UI\Sidebar.g.cs
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\App.g.cs
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit_MarkupCompile.cache
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit_MarkupCompile.lref
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\MainWindow.baml
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\UI\Body.baml
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\UI\Sidebar.baml
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.g.resources
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps_Toolkit.Properties.Resources.resources
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.csproj.GenerateResource.Cache
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.csproj.CoreCompileInputs.cache
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.exe
+E:\DevOps Toolkit\DevOps Toolkit\obj\Debug\DevOps Toolkit.pdb

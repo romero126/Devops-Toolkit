@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="pwsh.UI.IDE"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:pwsh.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+		<RichTextBox Name="Editor" Background="#19171c" Foreground="#efecf4" FontFamily="Consolas" FontSize="14" KeyDown="Editor_KeyDown" AcceptsTab="True" PreviewKeyDown="Editor_KeyDown" BorderThickness="0" Block.LineHeight="3" Margin="-1,1,1,-1"/>
+	</Grid>
+</UserControl>
